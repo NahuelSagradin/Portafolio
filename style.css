@@ -59,6 +59,62 @@ body {
     color: #ff5080;
 
 }
+.encabezado__presentacion {
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(imagenes/setUp.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    display: grid;
+    grid-template-areas: 
+    "contenido"
+    "imagenPerfil";
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    padding: 2rem;
+}
+.encabezado__presentacion__contenido {
+    grid-area: contenido;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 2rem;
+}
+.encabezado__presentacion__contenido__titulo {
+    font-size: 2rem;
+}
+.encabezado__presentacion__contenido__titulo span {
+    color: #ff5080; 
+}
+.encabezado__presentacion__contenido__redes{
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+}
+.encabezado__presentacion__contenido__redes li a{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .5s;
+}
+.encabezado__presentacion__contenido__redes li a:hover {
+    color: #ff5080;
+}
+.encabezado__presentacion__fotoPerfil {
+    grid-area: imagenPerfil;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.encabezado__presentacion__fotoPerfil img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+
+}
 
 
 
