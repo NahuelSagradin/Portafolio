@@ -1,5 +1,36 @@
-.contenido__skills-hobbies {
+.skillsHobbies {
     grid-area: skills-hobbies;
     grid-column: 1/2;
     grid-row: 3/4;
+    text-align: center;
+    font-weight: bold;
+    background: #DCDCDC;
+
+}
+.skillsHobbies__titulo {
+
+}
+.skillsHobbies__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.skills, .hobbies{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 3rem;
+}
+.skills__icono, .hobbies__icono{
+    height: 70px;
+    width: 70px;
+}
+
+.skills__icono img, .hobbies__icono img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.skills p, .hobbies p {
+    margin-top: 10px;
 }
