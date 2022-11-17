@@ -1,0 +1,17 @@
+.pieDePagina {
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+.pieDePagina p {
+    margin: 1rem;
+}
+.pieDePagina__redes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+..pieDePagina__redes ul li {
+    margin-right: 10px;
+}

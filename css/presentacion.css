@@ -28,17 +28,20 @@
 .contenido__presentacion__descripcion__titulo span {
     color: #ff5080; 
 }
-.contenido__presentacion__descripcion__redes {
-    padding: 2rem 2rem 0 2rem;
+.contenido__presentacion__descripcion__info {
+    margin-bottom: 1.5rem;
+}
+.redes {
+    padding: 0 2rem;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.contenido__presentacion__descripcion__redes li {
+.redes li {
     margin: 6px 10px;
 }
-.contenido__presentacion__descripcion__redes li a {
+.redes li a {
     text-decoration: none;
     color: #ffffff;
     transition: .5s;
